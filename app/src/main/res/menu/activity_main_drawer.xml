@@ -7,14 +7,44 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:title="@string/menu_profile" />
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:title="@string/menu_list" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:title="@string/menu_moments" />
+
+        <item
+            android:id="@+id/nav_highlights"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_highlights" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/baseline_settings_24"
+            android:title="Settings and Privacy" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/baseline_help_center_24"
+            android:title="Help Center" />
+        <item
+            android:id="@+id/nav_offers"
+            android:icon="@drawable/baseline_local_offer_24"
+            android:title="Offers" />
+
+        <item
+            android:id="@+id/nav_QRCode"
+            android:icon="@drawable/baseline_qr_code_24"
+            android:title="QR Code" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/baseline_logout_24"
+            android:title="Logout" />
     </group>
 </menu>
